@@ -113,6 +113,11 @@ p {
 }
 
 @media (max-width: 500px) {
+  .hero {
+    background: #f9f7fe;
+    padding: 100px 20px;
+  }
+
   .pic {
     display: none;
   }
