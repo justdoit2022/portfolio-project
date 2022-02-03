@@ -34,6 +34,10 @@ h3 {
   color: var(--third-color);
 }
 
+h4 {
+  font-size: 48px;
+}
+
 span {
   display: flex;
   flex-direction: row;
@@ -99,20 +103,6 @@ p {
   color: var(--primary-color);
 }
 
-.email-link {
-  display: flex;
-  justify-content: space-evenly;
-}
-.email-link {
-  text-decoration: none;
-  font-size: 28px;
-  color: var(--primary-color);
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
 @media (max-width: 500px) {
   .hero {
     background: #f9f7fe;
@@ -144,4 +134,51 @@ p {
 img {
   max-width: 100%;
   height: auto;
+}
+
+footer .contact-box {
+  background: #f5f2fe;
+  padding: 30px 60px;
+  border-radius: 10px;
+  margin: 200px 0px 50px;
+}
+
+footer .contact-box p {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+.btn {
+  background: #6c63ff;
+  color: white;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+}
+.email-link {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+.email-link:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: #f5f2fe;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
 }
